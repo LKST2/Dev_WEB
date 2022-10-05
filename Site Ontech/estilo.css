@@ -1,4 +1,71 @@
 @charset "UTF-8"
 
+/*{
+   margin: 0px;
+   padding: 0px;
+}*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+#contratos{
+   width: 100%;
+   float: left;  
+   margin-bottom: 150px; 
+   margin-top: 15px;
+}
+
+#junior{
+
+width: 150px;
+height: 350px;
+border: 2px solid #d88bd8;
+border-radius: 10px;
+padding: 0px 10px;
+text-align: left;
+margin-right: 10px; 
+float: left;
+}
+
+div#junior ul{
+   list-style: none;
+}
+
+#pleno{
+
+   width: 150px;
+   height: 350px;
+   border: 2px solid #d88bd8;
+   border-radius: 10px;
+   padding: 0px 10px;
+   text-align: left;
+   float: left;
+   
+   margin-right: 10px;
+   }
+   
+   div#pleno ul{
+      list-style: none;
+   }
+
+   #senior{
+
+      width: 150px;
+      height: 350px;
+      border: 2px solid #d88bd8;
+      border-radius: 10px;
+      padding: 0px 10px;
+      text-align: left;
+      float: left;
+      }
+      
+      div#senior ul{
+         list-style: none;
+      }
+
+/*Ideia: ao passar o maouse por cima dos contratos circuitos bem clarinhos podem ficar transitando na flex-box;
+Também, ao passar o mouse ficar um gradiente clarinho na colaração do site
+E tbm o retangulo se sobepor ao seu tamnho original*/
+
+
+
 
